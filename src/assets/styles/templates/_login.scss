@@ -1,0 +1,35 @@
+.login {
+  width: 100%;
+
+  &-carousel {
+    width: 50%;
+    height: 100vh;
+    background-color: #a9c5ba;
+
+    &-div {
+      height: 100% !important;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &-text {
+          color: #ffffff;
+          span {
+            font-size: 30px;
+
+            &:last-child {
+              font-size: 20px;
+            }
+          }
+        }
+
+        img {
+          max-width: 80%;
+        }
+      }
+    }
+  }
+}

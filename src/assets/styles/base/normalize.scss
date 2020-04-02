@@ -1,0 +1,41 @@
+* {
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 340px;
+  margin: auto;
+
+  @include mq("tablet") {
+    max-width: 720px;
+  }
+
+  @include mq("tablet-wide") {
+    max-width: 970px;
+  }
+
+  @include mq("desktop") {
+    max-width: 1300px;
+  }
+
+  @include mq("desktop-wide") {
+    max-width: 1600px;
+  }
+}
