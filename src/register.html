@@ -61,12 +61,19 @@
       <!-- Login Form -->
       <div class="login-form">
         <div class="login-form-title">
-          <h5>Welcome to Invision</h5>
+          <h5>Getting Started</h5>
         </div>
 
         <div class="login-form-inputsForm">
           <div class="row">
             <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="fullName" type="text" class="validate" />
+                  <label for="fullName">Full Name</label>
+                </div>
+              </div>
+
               <div class="row">
                 <div class="input-field col s12">
                   <input id="email" type="email" class="validate" />
@@ -79,14 +86,6 @@
                   <input id="password" type="password" class="validate" />
                   <label for="password">Password</label>
                 </div>
-              </div>
-
-              <div class="row">
-                <a
-                  class="waves-effect waves-teal btn-flat login-form-forgotPass"
-                >
-                  Forgot password?
-                </a>
               </div>
 
               <div class="row center-align">
@@ -108,11 +107,22 @@
 
               <div class="row login-form-newAccount">
                 <span>
-                  New
+                  By signing up, you agree to
+                  <b>Invision</b>
+                  <a href="#">Terms of Conditions</a>
+                  and
+                  <a href="#">Privacy Policy</a>
+                </span>
+                <a href="index.html">Log in</a>
+              </div>
+
+              <div class="row login-form-newAccount">
+                <span>
+                  Already on
                   <b>Invision</b>
                   ?
                 </span>
-                <a href="./register.html">Create Account</a>
+                <a href="index.html">Log in</a>
               </div>
             </form>
           </div>
