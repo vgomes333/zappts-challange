@@ -1,13 +1,9 @@
 * {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 100%;
   outline: none; }
-
-a {
-  text-decoration: none;
-  color: black; }
 
 ul {
   list-style: none; }
@@ -31,29 +27,35 @@ img {
     .container {
       max-width: 1600px; } }
 
-.login {
-  width: 100%; }
-  .login-carousel {
-    width: 50%;
-    height: 100vh;
-    background-color: #a9c5ba; }
-    .login-carousel-div {
-      height: 100% !important; }
-      .login-carousel-div-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .login-carousel-div-item-text {
-          color: #ffffff; }
-          .login-carousel-div-item-text span {
-            font-size: 30px; }
-            .login-carousel-div-item-text span:last-child {
-              font-size: 20px; }
-        .login-carousel-div-item img {
-          max-width: 80%; }
+.wrapper {
+  background-color: #707070;
+  height: 1px;
+  margin: 32px 0 0;
+  text-align: center; }
+  .wrapper span {
+    position: relative;
+    top: -8px;
+    padding: 0 15px;
+    color: #707070;
+    background: #ffffff; }
+
+.googleBtn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 100px;
+  border: none;
+  opacity: 1;
+  width: 263px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1cm;
+  margin-left: 1.2cm; }
 
 .login {
+  display: flex;
   width: 100%; }
   .login-carousel {
     width: 50%;
@@ -74,3 +76,88 @@ img {
               font-size: 20px; }
         .login-carousel-div-item img {
           max-width: 80%; }
+  .login-form {
+    width: 50%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .login-form-title {
+      color: #707070; }
+    .login-form-inputsForm {
+      width: 50%; }
+    .login-form-forgotPass {
+      color: #707070 !important;
+      font-size: 9px !important;
+      width: 100%;
+      text-align: right; }
+    .login-form-signinBtn {
+      width: 175px;
+      height: 45px;
+      color: #ffffff;
+      background: #707070 0% 0% no-repeat padding-box;
+      border-radius: 100px;
+      opacity: 1;
+      border: none; }
+    .login-form-newAccount {
+      color: #707070;
+      text-align: center; }
+      .login-form-newAccount a {
+        text-decoration: underline !important;
+        color: #a9c5ba !important; }
+
+.login {
+  display: flex;
+  width: 100%; }
+  .login-carousel {
+    width: 50%;
+    height: 100vh;
+    background-color: #a9c5ba; }
+    .login-carousel-div {
+      height: 100% !important; }
+      .login-carousel-div-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .login-carousel-div-item-text {
+          color: #ffffff; }
+          .login-carousel-div-item-text span {
+            font-size: 30px; }
+            .login-carousel-div-item-text span:last-child {
+              font-size: 20px; }
+        .login-carousel-div-item img {
+          max-width: 80%; }
+  .login-form {
+    width: 50%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .login-form-title {
+      color: #707070; }
+    .login-form-inputsForm {
+      width: 50%; }
+    .login-form-forgotPass {
+      color: #707070 !important;
+      font-size: 9px !important;
+      width: 100%;
+      text-align: right; }
+    .login-form-signinBtn {
+      width: 175px;
+      height: 45px;
+      color: #ffffff;
+      background: #707070 0% 0% no-repeat padding-box;
+      border-radius: 100px;
+      opacity: 1;
+      border: none; }
+    .login-form-newAccount {
+      color: #707070;
+      text-align: center; }
+      .login-form-newAccount a {
+        text-decoration: underline !important;
+        color: #a9c5ba !important; }

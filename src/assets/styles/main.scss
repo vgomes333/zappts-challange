@@ -1,12 +1,14 @@
 // Helpers
-@import "./helpers/mixins.scss";
-@import "./helpers/variables.scss";
+@import './helpers/mixins.scss';
+@import './helpers/variables.scss';
 
 // Normalize
-@import "./base/normalize.scss";
+@import './base/normalize.scss';
 
 // Components
+@import './components/wrapper.scss';
+@import './components/googleBtn';
 
 // Templates
-@import "./templates/login";
-@import "./templates/login";
+@import './templates/login';
+@import './templates/login';
